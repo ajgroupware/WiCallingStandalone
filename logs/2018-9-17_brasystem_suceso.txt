@@ -1,0 +1,14 @@
+Sep 17, 2018 7:15:38 PM servicio.transaccion.sofasa.Log suceso
+INFO: ENVIO LLAMADO Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+Sep 17, 2018 7:15:54 PM servicio.transaccion.sofasa.Log suceso
+INFO: ENVIO LLAMADO Fecha: 2018-09-17T19:15:52 - Pulsador: 85-170-2-131-3-102-166-17-90
+Sep 17, 2018 7:15:59 PM servicio.transaccion.sofasa.Log suceso
+INFO: ENVIO LLAMADO Fecha: 2018-09-17T19:15:53 - Pulsador: 85-170-2-131-3-103-0-113-159
+Sep 17, 2018 7:16:25 PM servicio.transaccion.sofasa.Log suceso
+INFO: ENVIO LLAMADO Fecha: 2018-09-17T19:16:20 - Pulsador: 85-170-2-131-3-102-248-3-22
+Sep 17, 2018 7:16:25 PM servicio.transaccion.sofasa.Log suceso
+INFO: ENVIO LLAMADO Fecha: 2018-09-17T19:16:21 - Pulsador: 85-170-2-131-3-102-166-17-90
+Sep 17, 2018 7:16:25 PM servicio.transaccion.sofasa.Log suceso
+INFO: ENVIO LLAMADO Fecha: 2018-09-17T19:16:22 - Pulsador: 85-170-2-131-3-103-0-115-157
+Sep 17, 2018 7:16:25 PM servicio.transaccion.sofasa.Log suceso
+INFO: ENVIO LLAMADO Fecha: 2018-09-17T19:16:24 - Pulsador: 85-170-2-131-3-102-248-1-24

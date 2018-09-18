@@ -1,0 +1,14 @@
+Sep 17, 2018 6:57:24 PM propio.Log suceso
+INFO: Inicio del servicio Se inicio el servicio de manera exitosa
+Sep 17, 2018 7:00:26 PM propio.Log suceso
+INFO: Inicio del servicio Se inicio el servicio de manera exitosa
+Sep 17, 2018 7:05:19 PM propio.Log suceso
+INFO: Inicio del servicio Se inicio el servicio de manera exitosa
+Sep 17, 2018 7:15:35 PM propio.Log suceso
+INFO: Inicio del servicio Se inicio el servicio de manera exitosa
+Sep 17, 2018 7:17:05 PM propio.Log suceso
+INFO: Inicio del servicio Se inicio el servicio de manera exitosa
+Sep 17, 2018 7:18:58 PM propio.Log suceso
+INFO: Inicio del servicio Se inicio el servicio de manera exitosa
+Sep 17, 2018 7:20:04 PM propio.Log suceso
+INFO: Inicio del servicio Se inicio el servicio de manera exitosa

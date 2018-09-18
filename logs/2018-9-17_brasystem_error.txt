@@ -1,0 +1,334 @@
+Sep 17, 2018 6:57:24 PM servicio.transaccion.sofasa.Log error
+WARNING: (Configuración: ) No fue posible leer las variables email
+java.lang.Exception: No fue posible leer las variables email
+	at servicio.transaccion.Control.cargarConfiguracion(Control.java:389)
+	at servicio.Main.main(Main.java:33)
+
+Sep 17, 2018 6:57:24 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:57:29 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:57:34 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:57:39 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:57:44 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:57:49 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:57:54 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:57:59 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:58:04 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:58:09 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:58:14 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:58:19 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:58:24 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:58:29 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:58:34 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:58:39 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:58:44 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:58:49 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:58:54 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:58:59 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:59:04 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:59:09 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:59:14 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:59:19 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:59:24 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:59:29 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:59:34 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:59:39 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 6:59:44 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 7:00:26 PM servicio.transaccion.sofasa.Log error
+WARNING: (Configuración: ) No fue posible leer las variables email
+java.lang.Exception: No fue posible leer las variables email
+	at servicio.transaccion.Control.cargarConfiguracion(Control.java:389)
+	at servicio.Main.main(Main.java:33)
+
+Sep 17, 2018 7:00:26 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 7:00:31 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 7:00:36 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 7:00:41 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 7:05:22 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 7:05:27 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 7:05:33 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 7:05:38 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 7:05:43 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 7:05:49 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 7:05:54 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 7:06:00 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 7:06:05 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 7:06:11 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 7:06:16 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 7:06:21 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 17, 2018 7:06:27 PM servicio.transaccion.sofasa.Log error
+WARNING: (Error ENVIO LLAMADO) Fecha: 2018-09-17T18:45:49 - Pulsador: 85-170-2-131-3-103-0-113-159
+java.lang.Exception: Error ENVIO LLAMADO
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.enviarTramasTexto(HiloComunicacionBrasystem.java:162)
+	at servicio.transaccion.sofasa.HiloComunicacionBrasystem.run(HiloComunicacionBrasystem.java:60)
+	at java.lang.Thread.run(Thread.java:748)
+
