@@ -147,6 +147,7 @@ public class HiloComunicacionSerial implements Runnable {
             }
         } catch (Exception ex) {
             Log.getInstance().error("ERROR FATAL puerto serial", "ERROR FATAL en el sistema... Operación finalizada", ex);
+            servicio.transaccion.sofasa.Log.getInstance().error("ERROR FATAL puerto serial", "ERROR FATAL en el sistema... Operación finalizada", ex);
         } finally {
             Control.getInstance().desconectar();
             if (puertoSerie != null) {

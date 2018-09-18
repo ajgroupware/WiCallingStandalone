@@ -1,0 +1,2 @@
+Sep 18, 2018 10:02:22 AM propio.Log suceso
+INFO: Inicio del servicio Se inicio el servicio de manera exitosa

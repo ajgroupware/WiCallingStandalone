@@ -259,6 +259,7 @@ public class Control {
         hiloComunicacionBrasystemFinalizar();
         setEstado(ESTADO_DESCONECTADO);
         Log.getInstance().suceso("Fin del servicio", "Por algún motivo desconocido, el servicio finalizo su operación");
+        servicio.transaccion.sofasa.Log.getInstance().suceso("Fin del servicio", "Por algún motivo desconocido, el servicio finalizo su operación");
     }
 
     public boolean cargarConfiguracion() throws Exception {
@@ -366,7 +367,7 @@ public class Control {
                 }
             } else {
                 servicio.transaccion.sofasa.Log.getInstance().error("Configuración: ", "No fue posible leer las variables de conexión para el webservices", new Exception("No fue posible leer las variables de conexión para el webservices"));
-                SendEmailUtil.sendTextEmail("Prueba", "Prueba", "ajrodriguezsi@groupware.com.co");
+                //SendEmailUtil.sendTextEmail("Prueba", "Prueba", "ajrodriguezsi@groupware.com.co");
                 throw new Exception("No fue posible leer las variables de conexión para el webservices");
             }
             

@@ -40,11 +40,14 @@ public class Main {
                 Control.getInstance().hiloComunicacionBrasystemIniciar();
                 Control.getInstance().hiloLimpiarLogsIniciar();
                 Log.getInstance().suceso("Inicio del servicio", "Se inicio el servicio de manera exitosa");
+                servicio.transaccion.sofasa.Log.getInstance().suceso("Inicio del servicio", "Se inicio el servicio de manera exitosa");
             } else {
                 Log.getInstance().suceso("FALLO en el inicio del servicio", "Ocurrio un FALLO desconocido que no permitio iniciar el servicio");
+                servicio.transaccion.sofasa.Log.getInstance().suceso("FALLO en el inicio del servicio", "Ocurrio un FALLO desconocido que no permitio iniciar el servicio");
             }
         } catch (Exception ex) {
             Log.getInstance().error("ERROR en la carga del servicio", "Ocurrio un ERROR que no permitio iniciar la carga del servicio", ex);
+            servicio.transaccion.sofasa.Log.getInstance().error("ERROR en la carga del servicio", "Ocurrio un ERROR que no permitio iniciar la carga del servicio", ex);
         }
     }
 
