@@ -9,6 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import servicio.TransaccionDAO;
 import servicio.transaccion.Control;
 import servicio.transaccion.PendienteArchivo;
 
@@ -44,7 +45,8 @@ public class HiloComunicacionBrasystem implements Runnable {
                             transacciones = Control.getInstance().getTransaccionesBrasystem();
                             break;
                         case Control.ALMACENAMIENTO_TEXTO:
-                            transacciones = PendienteArchivo.getInstance().retirarTransaccionesBrasystem();
+                            //transacciones = PendienteArchivo.getInstance().retirarTransaccionesBrasystem();
+                            transacciones = TransaccionDAO.getTransaccion();
                             break;
                         default:
                             Log.getInstance().error("ERROR DESCONOCIDO", "Forma de operacion no definida", new Exception("Forma de operacion no definida"));
@@ -154,12 +156,14 @@ public class HiloComunicacionBrasystem implements Runnable {
         boolean envio = false;
         try {
             if (transacciones != null) {
+                StringBuilder listIdTransaccion = new StringBuilder();
                 List<Transaccion> listErrorTrans = new ArrayList<>();
                 List<String> listError = new ArrayList<>();
                 for (Transaccion transaccion : transacciones) {
                     if (ComunicacionWS.enviarTransaccionesBrasystem(transaccion)) {
                         envio = true;
                         Log.getInstance().suceso("ENVIO LLAMADO", "Fecha: " + transaccion.getFechaHora() + " - Pulsador: " + transaccion.getValor());
+                        listIdTransaccion.append(transaccion.getId() + ",");
                     } else {
                         Log.getInstance().error("Error ENVIO LLAMADO", "Fecha: " + transaccion.getFechaHora() + " - Pulsador: " + transaccion.getValor(), new Exception("Error ENVIO LLAMADO"));
                         String error = "Error ENVIO LLAMADO Fecha: " + df.format(new Date()) + " - Pulsador: " + transaccion.getSerial() + " " + transaccion.getValor();
@@ -169,18 +173,25 @@ public class HiloComunicacionBrasystem implements Runnable {
                 }
                 
                 if (listErrorTrans.size() > 0) {
-                    PendienteArchivo.getInstance().agregarTransaccionesBrasystem(transacciones);
+                    //PendienteArchivo.getInstance().agregarTransaccionesBrasystem(transacciones);
                     StringBuilder error = new StringBuilder();
                     for (String errorStr: listError) {
                         error.append(errorStr + "\n");
                     }
                     //Enviar email
-                    SendEmailUtil.sendTextEmail("WiCalling Error", error.toString(), Control.getInstance().getWsEventsMail());
+                    //SendEmailUtil.sendTextEmail("WiCalling Error", error.toString(), Control.getInstance().getWsEventsMail());
+                } 
+                
+                //Borrar transacciones enviadas
+                if (listIdTransaccion.length() > 1) {
+                    listIdTransaccion.deleteCharAt(listIdTransaccion.length() - 1);
+                    TransaccionDAO.deleteTransaccion(listIdTransaccion.toString());
+
                 }
             }
         } catch (Exception ex) {
             envio = false;
-            PendienteArchivo.getInstance().agregarTransaccionesBrasystem(transacciones);
+            //PendienteArchivo.getInstance().agregarTransaccionesBrasystem(transacciones);
         }
         return envio;
     }

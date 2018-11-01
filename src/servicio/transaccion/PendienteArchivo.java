@@ -19,11 +19,12 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 import propio.PropApl;
+import servicio.TransaccionDAO;
 
 public class PendienteArchivo {
 
     private final String archivo;
-    private final String archivoIntegracionBraSystem;
+    //private final String archivoIntegracionBraSystem;
     SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
     private static PendienteArchivo instance = null;
@@ -38,7 +39,7 @@ public class PendienteArchivo {
             rutaLocal += separador;
         }
         archivo = rutaLocal + "logs" + separador + "historial.txt";
-        archivoIntegracionBraSystem = rutaLocal + "logs" + separador + "historial_brasystem.txt";
+        //archivoIntegracionBraSystem = rutaLocal + "logs" + separador + "historial_brasystem.txt";
     }
 
     public static PendienteArchivo getInstance() {
@@ -79,6 +80,7 @@ public class PendienteArchivo {
         return exitos;
     }
     
+    /*
     public boolean agregarTransaccionesBrasystem(List<Transaccion> transacciones) {
         boolean exitos = false;
         FileWriter ficheroBraSystem = null;
@@ -109,29 +111,33 @@ public class PendienteArchivo {
         }
         return exitos;
     }
-
+    */
+    
     public boolean agregarTransaccion(Transaccion transaccion) {
         boolean exitoso = false;
         FileWriter fichero = null;
         FileWriter ficheroBraSystem = null;
         PrintWriter pw = null;
-        PrintWriter pwBraSystem = null;
+        //PrintWriter pwBraSystem = null;
         try {
             fichero = new FileWriter(archivo, true);
-            ficheroBraSystem = new FileWriter(archivoIntegracionBraSystem, true);
+            //ficheroBraSystem = new FileWriter(archivoIntegracionBraSystem, true);
             
             pw = new PrintWriter(fichero);
-            pwBraSystem = new PrintWriter(ficheroBraSystem);
+            //pwBraSystem = new PrintWriter(ficheroBraSystem);
             String _val = transaccion.getFechaHora()
                     + "&&" + String.valueOf(transaccion.getValor())
                     + "&&" + String.valueOf(transaccion.getSerial());
 
             String _valBrasystem = transaccion.getFechaHora().replaceAll(" ", "T")
                     + "&&" + String.valueOf(transaccion.getValor())
-                    + "&&" + String.valueOf(transaccion.getSerial());            
+                    + "&&" + String.valueOf(transaccion.getSerial());  
+            
+            //Insertar en base de datos
+            TransaccionDAO.addTransaccion(String.valueOf(transaccion.getValor()), String.valueOf(transaccion.getSerial()), transaccion.getFechaHora().replaceAll(" ", "T"));
            
             pw.println(_val);
-            pwBraSystem.println(_valBrasystem);
+            //pwBraSystem.println(_valBrasystem);
             exitoso = true;
         } catch (Exception e) {
             exitoso = false;
@@ -192,7 +198,7 @@ public class PendienteArchivo {
         return transacciones;
     }
     
-    
+    /*
     public List<Transaccion> retirarTransaccionesBrasystem() {
         List<Transaccion> transacciones = new ArrayList();
         File fichero = null;
@@ -234,5 +240,5 @@ public class PendienteArchivo {
         }
         return transacciones;
     }
-
+    */
 }

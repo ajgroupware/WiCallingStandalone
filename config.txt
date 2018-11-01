@@ -4,6 +4,6 @@ PISO_2
 1
 
 
-http://integration.brasystem.com.br/
+http://integration.brasystem.com.bro/
 ApiKey12445445
 ajrodriguezsi@groupware.com.co,ajrodriguezsi@gmail.com
