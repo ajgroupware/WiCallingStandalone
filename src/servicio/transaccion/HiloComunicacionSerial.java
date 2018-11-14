@@ -61,7 +61,7 @@ public class HiloComunicacionSerial implements Runnable {
                     //Aqui es donde se recerva y se habre el puerto serial
                     puertoSerie = (SerialPort) idPuerto.open("DescripcionPropietario", 2000);
                     //Configurar parámetros de comunicacion
-                    puertoSerie.setSerialPortParams(9600, SerialPort.DATABITS_8, SerialPort.STOPBITS_1, SerialPort.PARITY_NONE);
+                    puertoSerie.setSerialPortParams(9600, SerialPort.DATABITS_8, SerialPort.STOPBITS_1, SerialPort.PARITY_EVEN);
                     puertoSerie.setDTR(true);
                     puertoSerie.notifyOnDataAvailable(true);
                     //Escuchar puerto serial
@@ -86,27 +86,35 @@ public class HiloComunicacionSerial implements Runnable {
                                 }
                             }
                             if (_mensaje && !s2.equals("")) {
-                                Transaccion _trans = new Transaccion();
-                                _trans.setValor(s2);
-                                _trans.setSerial(Control.getInstance().getReceptorSerial());
-                                _trans.setFechaHora(df.format(new Date()));
-                                switch (ALMACENAMIENTO) {
-                                    case Control.ALMACENAMIENTO_MEMORIA:
-                                        Control.getInstance().addTransaccion(_trans);
-                                        Control.getInstance().addTransaccionBrasystem(_trans); //Guardar en memoria transacciones Brasystem
-                                        break;
-                                    case Control.ALMACENAMIENTO_TEXTO:
-                                        PendienteArchivo.getInstance().agregarTransaccion(_trans);
-                                        break;
-                                    default:
-                                        throw new Exception("Forma de operacion no definida");
+                                String[] s2_array = s2.split("-");
+                                if (s2_array.length <= 12) {
+                                   Transaccion _trans = new Transaccion();
+                                    _trans.setValor(s2);
+                                    _trans.setSerial(Control.getInstance().getReceptorSerial());
+                                    _trans.setFechaHora(df.format(new Date()));
+                                    switch (ALMACENAMIENTO) {
+                                        case Control.ALMACENAMIENTO_MEMORIA:
+                                            Control.getInstance().addTransaccion(_trans);
+                                            Control.getInstance().addTransaccionBrasystem(_trans); //Guardar en memoria transacciones Brasystem
+                                            break;
+                                        case Control.ALMACENAMIENTO_TEXTO:
+                                            PendienteArchivo.getInstance().agregarTransaccion(_trans);
+                                            break;
+                                        default:
+                                            throw new Exception("Forma de operacion no definida");
+                                    }
+                                    //Agregar al vercor en cola
+                                    System.out.println(s2.trim());
+                                    _mensaje = false;
+                                    s2 = ""; 
+                                } else {
+                                    
+                                    s2 = ""; 
                                 }
-                                //Agregar al vercor en cola
-                                System.out.println(s2.trim());
-                                _mensaje = false;
-                                s2 = "";
+                                
                             }
                         } catch (IOException | DatatypeConfigurationException ex) {
+                            s2 = ""; 
                             throw new Exception("Error en la lectura de una tramas (" + ex.getMessage() + ")");
                         }
                         errores = 0;
