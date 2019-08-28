@@ -272,6 +272,7 @@ public class Control {
         } else {
             rutaLocal += separador;
         }
+        System.out.println("--Ruta de configuración: " + rutaLocal);
         File f = new File(rutaLocal + "config.txt");
         BufferedReader entrada;
         try {
@@ -310,6 +311,7 @@ public class Control {
             //Puerto serial
             if (entrada.ready()) {
                 Control.getInstance().setSerialPuerto(entrada.readLine().trim());
+                System.out.println("--Puerto SERIAL: " + Control.getInstance().getSerialPuerto());
                 if (Control.getInstance().getSerialPuerto() == null || Control.getInstance().getSerialPuerto().equals("")) {
                     throw new Exception("No fue posible leer el puerto del archivo de configuración");
                 }
