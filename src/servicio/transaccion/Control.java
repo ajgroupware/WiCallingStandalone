@@ -273,7 +273,7 @@ public class Control {
             rutaLocal += separador;
         }
         System.out.println("--Ruta de configuración: " + rutaLocal);
-        File f = new File(rutaLocal + "config.txt");
+        File f = new File(rutaLocal + "config2.txt");
         BufferedReader entrada;
         try {
             entrada = new BufferedReader(new FileReader(f));

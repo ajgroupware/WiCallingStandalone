@@ -69,7 +69,8 @@ public class ComunicacionWS {
     private static ModelApiResponse sendToBrasystem (String identification, String registerDate, String authenticationKey) {
         System.out.println("--sendToBrasystem");
         ModelApiResponse response = new ModelApiResponse();
-        String uri = URL + "api/v1/Integration/InitiateCall";
+        //String uri = URL + "api/v1/Integration/InitiateCall";
+        String uri = URL;
         URL url;
         try {
             // 1. URL
@@ -87,11 +88,17 @@ public class ComunicacionWS {
             //conn.setRequestProperty("Authorization", "Bearer " + token);
 
             conn.setDoOutput(true);
-
+            /*
             String input = "{\"identification\":\"" + identification + "\"" +
                     " , \"registerDate\":\"" + registerDate + "\"" +
                     " , \"authenticationKey\":\"" + authenticationKey + "\"" +
                     "}";
+            */
+            String input = "{\"code\":\"" + identification + "\"" +
+                    " , \"date\":\"" + registerDate + "\"" +
+                    " , \"key\":\"" + authenticationKey + "\"" +
+                    "}";
+            
             System.out.println("--json : " + input);
             OutputStream os = conn.getOutputStream();
             os.write(input.getBytes());

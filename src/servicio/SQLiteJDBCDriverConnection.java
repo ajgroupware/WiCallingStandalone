@@ -36,7 +36,7 @@ public class SQLiteJDBCDriverConnection {
                 }
                 // db parameters
                 //String url = "jdbc:sqlite:/Users/alvarorodriguez/GroupWare/Projects/TIPI/workspace/servWiCloud/wicalling.db";
-                String url = "jdbc:sqlite:" + rutaLocal + "wicalling.db";
+                String url = "jdbc:sqlite:" + rutaLocal + "wicalling2.db";
                 // create a connection to the database
                 conn = DriverManager.getConnection(url);
                 System.out.println("--Connection to SQLite has been established.");
